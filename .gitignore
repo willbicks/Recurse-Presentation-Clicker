@@ -1,4 +1,5 @@
-# Temporary files
+# KiCAD
+## Temporary files
 *.000
 *.bak
 *.bck
@@ -16,13 +17,16 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 
-# Netlist files (exported from Eeschema)
+## Netlist files (exported from Eeschema)
 *.net
 
-# Autorouter files (exported from Pcbnew)
+## Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 
-# Exported BOM files
+## Exported BOM files
 *.xml
 *.csv
+
+# Rust
+/target

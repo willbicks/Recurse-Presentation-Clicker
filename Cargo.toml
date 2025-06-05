@@ -1,0 +1,19 @@
+[package]
+name = "usb-presentation-remote"
+version = "0.1.0"
+edition = "2021"
+authors = ["Will Bicks", "DLKJ"]
+description = "Demo USB presentation remote based on a Raspberry Pi Pico"
+license = "MIT"
+
+[dependencies]
+fugit = "0.3"
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+embedded-hal = { version = "1.0" }
+defmt = "1.0"
+defmt-rtt = "1.0"
+panic-probe = { version = "1.0", features = ["print-defmt"] }
+rp-pico = "0.9"
+usb-device = "0.3"
+usbd-human-interface-device = { version = "0.6.0", features = ["defmt"] }
